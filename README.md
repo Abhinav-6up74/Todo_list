@@ -4,15 +4,17 @@ cd Todo_list
 ```
 
 ## Compile
+```
 g++ a.cpp -o a
+```
 
 ## Run
 ### windows
-```powershell
+```
 .\a
 ```
 
 ### linux
-```bash
+```
 ./a
 ```
