@@ -23,6 +23,7 @@ void load_tasks() {
     if (!line.empty())
       vs.push_back(line);
   }
+  sz = vs.size();
   fin.close();
 }
 
@@ -98,7 +99,7 @@ void update_task() {
   cin.ignore();
   getline(cin, s);
   if (s.empty()) {
-    cout << "Task can't be empty. Update abbort\n";
+    cout << "Task can't be empty. Update aborted\n";
     return;
   }
   vs[n - 1] = s;
